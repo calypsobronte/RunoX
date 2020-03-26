@@ -1,0 +1,17 @@
+name: "RunoX"
+description: "RunoX"
+author: "Several contributors"
+
+inputs:
+  MY_NAME:
+    description: "uno"
+    required: true
+    default: "runox"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "mic"
+  color: "purple"
